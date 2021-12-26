@@ -44,22 +44,24 @@ li {
     text-decoration: none;
 
 }
+
 .nav ul li a:hover {
     color: orange;
     border-bottom: orange solid 3px;
 }
 
 .header input {
-    width: 200px;
+    float: right;
+    width: 250px;
     height: 34px;
     border: orange solid 3px;
-    margin-left: 60px;
+    margin-right: 100px;
     padding-left: 10px;
-    
+    font-size: 13px;
+
 }
 
 .header input:focus {
-    font-size: 17px;
     outline: none
 }
 
@@ -68,7 +70,7 @@ li {
 /* 内容区域开始 */
 
 .box {
-    height: 1200px;
+    height: 1134px;
     background: rgb(245, 199, 210);
 
 }
@@ -85,11 +87,19 @@ li {
     width: 293.5px;
     height: 371.1376px;
     background: white;
-    margin: 5px 0px 5px 5px;
+    margin: 5px 5px 0px 0px;
 }
+
+.box-bd div:nth-child(4n+1) {
+    margin-left: 5px;
+}
+
+
+
 .box-bd div a img {
     width: 100%;
 }
+
 .box-bd div .mask {
     display: none;
     position: absolute;
@@ -99,7 +109,8 @@ li {
     margin: 0px;
 }
 
-.box-bd div:hover .mask{
+.box-bd div:hover .mask {
     display: block;
 }
+
 /* 内容区域结束 */
